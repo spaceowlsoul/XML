@@ -1,1 +1,13 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<BugReport>
+   <Id>1</Id>
+   <Component>PLP</Component>
+   <Type>Functional</Type>
+   <Summary>Some product prices on the PLP in the 'Sale room' are shown with no discount</Summary>
+   <URL>https://qatest-dev.indvp.com/sale-room</URL>
+   <STR>1) Choose the 'Sale room' category on the home page. 2) Get '404. Page not found' message (may happen). 3) Click the 'Back to home page' button. 4) Choose the 'Sale room' category on the home page. 5) Choose a product with no discount. E.g. 'Bacchus Glass Collection', price - £39. 6) On the PDP ensure the price is discounted (e.g. price - £15.60).</STR>
+   <ExpectedResult>All the prices on the PLP in the 'Sale room' section are discounted and match the prices on the PDP.</ExpectedResult>
+   <ActualResult>Some prices on the PLP in the 'Sale room' section are shown with no discount.</ActualResult>
+   <Screenshot>1) https://www.screencast.com/t/Zh6GYCI8pV; 2) https://www.screencast.com/t/oBJWjTCqtZw</Screenshot>
+   <Video>https://www.screencast.com/t/xdirrpfJAaa</Video>
+</BugReport>
